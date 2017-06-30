@@ -1,0 +1,41 @@
+
+.sheet-tabs {
+  position: relative;   
+  min-height: 200px; /* This part sucks */
+  clear: both;
+  margin: 25px 0;
+}
+.sheet-tab {
+  float: left;
+}
+.sheet-tab label {
+  background: #eee; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  margin-left: -1px; 
+  position: relative;
+  width: 80px;
+  left: 1px; 
+}
+.sheet-tab [type=radio] {
+  display: none;   
+}
+.sheet-content {
+  position: absolute;
+  top: 28px;
+  left: 0;
+  background: white;
+  right: 0;
+  padding: 20px;
+  border: 1px solid #ccc; 
+}
+
+[type=radio]:checked ~ label {
+  background: white;
+  border-bottom: 1px solid white;
+  z-index: 2;
+}
+
+[type=radio]:checked ~ label ~ .sheet-content {
+  z-index: 1;
+}
