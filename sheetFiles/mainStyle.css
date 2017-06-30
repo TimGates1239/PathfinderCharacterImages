@@ -30,6 +30,9 @@
   border: 1px solid #ccc; 
 }
 
+.sheet-ImageOverride {
+}
+
 [type=radio]:checked ~ label {
   background: white;
   border-bottom: 1px solid white;
@@ -38,4 +41,402 @@
 
 [type=radio]:checked ~ label ~ .sheet-content {
   z-index: 1;
+}
+
+[type=text]{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.sheet-PlayerName {
+    position: absolute;
+    color: green;
+    top: 110px;
+    left: 90px;
+    right: 5px;
+}
+
+.sheet-CampgainName {
+    position: absolute;
+    color: green;
+    top: 140px;
+    left: 100px;
+    right: 5px;
+}
+
+.sheet-CurrentExp {
+    position: absolute;
+    color: green;
+    top: 168px;
+    left: 75px;
+    width: 140px;
+}
+
+.sheet-NextExp {
+    position: absolute;
+    color: green;
+    top: 167px;
+    left: 250px;
+    width: 70px;
+    height: 10px;
+    font-size: 13px;
+}
+
+/*Str Ability 26 dif CSS*/
+.sheet-StrScore {
+    position: absolute;
+    color: green;
+    top: 240px;
+    left: 100px;
+    right: 5px;
+    width: 37px;
+}
+
+.sheet-StrItemBonus {
+    position: absolute;
+    color: green;
+    top: 240px;
+    left: 145px;
+    right: 5px;
+    width: 37px;
+}
+
+.sheet-StrMod {
+    position: absolute;
+    color: green;
+    top: 240px;
+    left: 189px;
+    right: 5px;
+    width: 37px;
+}
+
+.sheet-StrTempScore {
+    position: absolute;
+    color: green;
+    top: 240px;
+    left: 232px;
+    right: 5px;
+    width: 37px;
+}
+
+.sheet-StrTempMod {
+    position: absolute;
+    color: green;
+    top: 240px;
+    left: 276px;
+    right: 5px;
+    width: 37px;
+}
+
+/*Dex Ability CSS*/
+.sheet-DexScore {
+    position: absolute;
+    color: green;
+    top: 266px;
+    left: 100px;
+    right: 5px;
+    width: 37px;
+}
+
+.sheet-DexItemBonus {
+    position: absolute;
+    color: green;
+    top: 266px;
+    left: 145px;
+    right: 5px;
+    width: 37px;
+}
+
+.sheet-DexMod {
+    position: absolute;
+    color: green;
+    top: 266px;
+    left: 189px;
+    right: 5px;
+    width: 37px;
+}
+
+.sheet-DexTempScore {
+    position: absolute;
+    color: green;
+    top: 266px;
+    left: 232px;
+    right: 5px;
+    width: 37px;
+}
+
+.sheet-DexTempMod {
+    position: absolute;
+    color: green;
+    top: 266px;
+    left: 276px;
+    right: 5px;
+    width: 37px;
+}
+
+/*Con Ability CSS*/
+.sheet-ConScore {
+    position: absolute;
+    color: green;
+    top: 292px;
+    left: 100px;
+    right: 5px;
+    width: 37px;
+}
+
+.sheet-ConItemBonus {
+    position: absolute;
+    color: green;
+    top: 292px;
+    left: 145px;
+    right: 5px;
+    width: 37px;
+}
+
+.sheet-ConMod {
+    position: absolute;
+    color: green;
+    top: 292px;
+    left: 189px;
+    right: 5px;
+    width: 37px;
+}
+
+.sheet-ConTempScore {
+    position: absolute;
+    color: green;
+    top: 292px;
+    left: 232px;
+    right: 5px;
+    width: 37px;
+}
+
+.sheet-ConTempMod {
+    position: absolute;
+    color: green;
+    top: 292px;
+    left: 276px;
+    right: 5px;
+    width: 37px;
+}
+
+/*Int Ability CSS*/
+.sheet-IntScore {
+    position: absolute;
+    color: green;
+    top: 316px;
+    left: 100px;
+    right: 5px;
+    width: 37px;
+}
+
+.sheet-IntItemBonus {
+    position: absolute;
+    color: green;
+    top: 316px;
+    left: 145px;
+    right: 5px;
+    width: 37px;
+}
+
+.sheet-IntMod {
+    position: absolute;
+    color: green;
+    top: 316px;
+    left: 189px;
+    right: 5px;
+    width: 37px;
+}
+
+.sheet-IntTempScore {
+    position: absolute;
+    color: green;
+    top: 316px;
+    left: 232px;
+    right: 5px;
+    width: 37px;
+}
+
+.sheet-IntTempMod {
+    position: absolute;
+    color: green;
+    top: 316px;
+    left: 276px;
+    right: 5px;
+    width: 37px;
+}
+
+/*Wis Ability CSS*/
+.sheet-WisScore {
+    position: absolute;
+    color: green;
+    top: 340px;
+    left: 100px;
+    right: 5px;
+    width: 37px;
+}
+
+.sheet-WisItemBonus {
+    position: absolute;
+    color: green;
+    top: 340px;
+    left: 145px;
+    right: 5px;
+    width: 37px;
+}
+
+.sheet-WisMod {
+    position: absolute;
+    color: green;
+    top: 340px;
+    left: 189px;
+    right: 5px;
+    width: 37px;
+}
+
+.sheet-WisTempScore {
+    position: absolute;
+    color: green;
+    top: 340px;
+    left: 232px;
+    right: 5px;
+    width: 37px;
+}
+
+.sheet-WisTempMod {
+    position: absolute;
+    color: green;
+    top: 340px;
+    left: 276px;
+    right: 5px;
+    width: 37px;
+}
+
+/*Cha Ability CSS*/
+.sheet-ChaScore {
+    position: absolute;
+    color: green;
+    top: 364px;
+    left: 100px;
+    right: 5px;
+    width: 37px;
+}
+
+.sheet-ChaItemBonus {
+    position: absolute;
+    color: green;
+    top: 364px;
+    left: 145px;
+    right: 5px;
+    width: 37px;
+}
+
+.sheet-ChaMod {
+    position: absolute;
+    color: green;
+    top: 364px;
+    left: 189px;
+    right: 5px;
+    width: 37px;
+}
+
+.sheet-ChaTempScore {
+    position: absolute;
+    color: green;
+    top: 364px;
+    left: 232px;
+    right: 5px;
+    width: 37px;
+}
+
+.sheet-ChaTempMod {
+    position: absolute;
+    color: green;
+    top: 364px;
+    left: 276px;
+    right: 5px;
+    width: 37px;
+}
+
+/*Feats & Special Abilities */
+
+.sheet-Feast_SP1 {
+    position: absolute;
+    color: green;
+    top: 419px;
+    left: 76px;
+    right: 5px;
+    width: 240px;
+}
+
+.sheet-Feast_SP2 {
+    position: absolute;
+    color: green;
+    top: 436px;
+    left: 76px;
+    right: 5px;
+    width: 240px;
+}
+
+.sheet-Feast_SP3 {
+    position: absolute;
+    color: green;
+    top: 453px;
+    left: 76px;
+    right: 5px;
+    width: 240px;
+}
+
+.sheet-Feast_SP4 {
+    position: absolute;
+    color: green;
+    top: 470px;
+    left: 76px;
+    right: 5px;
+    width: 240px;
+}
+
+.sheet-Feast_SP5 {
+    position: absolute;
+    color: green;
+    top: 487px;
+    left: 76px;
+    right: 5px;
+    width: 240px;
+}
+
+.sheet-Feast_SP6 {
+    position: absolute;
+    color: green;
+    top: 504px;
+    left: 76px;
+    right: 5px;
+    width: 240px;
+}
+
+.sheet-Feast_SP7 {
+    position: absolute;
+    color: green;
+    top: 521px;
+    left: 76px;
+    right: 5px;
+    width: 240px;
+}
+
+.sheet-Feast_SP8 {
+    position: absolute;
+    color: green;
+    top: 538px;
+    left: 76px;
+    right: 5px;
+    width: 240px;
+}
+
+.sheet-Feast_SP9 {
+    position: absolute;
+    color: green;
+    top: 555px;
+    left: 76px;
+    right: 5px;
+    width: 240px;
 }
