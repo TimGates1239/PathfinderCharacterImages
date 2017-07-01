@@ -360,7 +360,7 @@
 
 /*Feats & Special Abilities */
 
-.sheet-Feast_SP1 {
+.sheet-Feats_SP1 {
     position: absolute;
     color: green;
     top: 419px;
@@ -369,7 +369,7 @@
     width: 240px;
 }
 
-.sheet-Feast_SP2 {
+.sheet-Feats_SP2 {
     position: absolute;
     color: green;
     top: 436px;
@@ -378,7 +378,7 @@
     width: 240px;
 }
 
-.sheet-Feast_SP3 {
+.sheet-Feats_SP3 {
     position: absolute;
     color: green;
     top: 453px;
@@ -387,7 +387,7 @@
     width: 240px;
 }
 
-.sheet-Feast_SP4 {
+.sheet-Feats_SP4 {
     position: absolute;
     color: green;
     top: 470px;
@@ -396,7 +396,7 @@
     width: 240px;
 }
 
-.sheet-Feast_SP5 {
+.sheet-Feats_SP5 {
     position: absolute;
     color: green;
     top: 487px;
@@ -405,7 +405,7 @@
     width: 240px;
 }
 
-.sheet-Feast_SP6 {
+.sheet-Feats_SP6 {
     position: absolute;
     color: green;
     top: 504px;
@@ -414,7 +414,7 @@
     width: 240px;
 }
 
-.sheet-Feast_SP7 {
+.sheet-Feats_SP7 {
     position: absolute;
     color: green;
     top: 521px;
@@ -423,7 +423,7 @@
     width: 240px;
 }
 
-.sheet-Feast_SP8 {
+.sheet-Feats_SP8 {
     position: absolute;
     color: green;
     top: 538px;
@@ -432,10 +432,210 @@
     width: 240px;
 }
 
-.sheet-Feast_SP9 {
+.sheet-Feats_SP9 {
     position: absolute;
     color: green;
     top: 555px;
+    left: 76px;
+    right: 5px;
+    width: 240px;
+}
+
+.sheet-Feats_SP10 {
+    position: absolute;
+    color: green;
+    top: 572px;
+    left: 76px;
+    right: 5px;
+    width: 240px;
+}
+
+.sheet-Feats_SP11 {
+    position: absolute;
+    color: green;
+    top: 589px;
+    left: 76px;
+    right: 5px;
+    width: 240px;
+}
+
+.sheet-Feats_SP12 {
+    position: absolute;
+    color: green;
+    top: 606px;
+    left: 76px;
+    right: 5px;
+    width: 240px;
+}
+
+.sheet-Feats_SP13 {
+    position: absolute;
+    color: green;
+    top: 623px;
+    left: 76px;
+    right: 5px;
+    width: 240px;
+}
+
+.sheet-Feats_SP14 {
+    position: absolute;
+    color: green;
+    top: 640px;
+    left: 76px;
+    right: 5px;
+    width: 240px;
+}
+
+.sheet-Feats_SP15 {
+    position: absolute;
+    color: green;
+    top: 657px;
+    left: 76px;
+    right: 5px;
+    width: 240px;
+}
+
+.sheet-Feats_SP16 {
+    position: absolute;
+    color: green;
+    top: 674px;
+    left: 76px;
+    right: 5px;
+    width: 240px;
+}
+
+.sheet-Feats_SP17 {
+    position: absolute;
+    color: green;
+    top: 691px;
+    left: 76px;
+    right: 5px;
+    width: 240px;
+}
+
+.sheet-Feats_SP18 {
+    position: absolute;
+    color: green;
+    top: 708px;
+    left: 76px;
+    right: 5px;
+    width: 240px;
+}
+
+.sheet-Feats_SP19 {
+    position: absolute;
+    color: green;
+    top: 725px;
+    left: 76px;
+    right: 5px;
+    width: 240px;
+}
+
+.sheet-Feats_SP20 {
+    position: absolute;
+    color: green;
+    top: 742px;
+    left: 76px;
+    right: 5px;
+    width: 240px;
+}
+
+.sheet-Feats_SP21 {
+    position: absolute;
+    color: green;
+    top: 759px;
+    left: 76px;
+    right: 5px;
+    width: 240px;
+}
+
+.sheet-Feats_SP22 {
+    position: absolute;
+    color: green;
+    top: 776px;
+    left: 76px;
+    right: 5px;
+    width: 240px;
+}
+
+.sheet-Feats_SP23 {
+    position: absolute;
+    color: green;
+    top: 793px;
+    left: 76px;
+    right: 5px;
+    width: 240px;
+}
+
+.sheet-Feats_SP24 {
+    position: absolute;
+    color: green;
+    top: 810px;
+    left: 76px;
+    right: 5px;
+    width: 240px;
+}
+
+.sheet-Feats_SP25 {
+    position: absolute;
+    color: green;
+    top: 827px;
+    left: 76px;
+    right: 5px;
+    width: 240px;
+}
+
+.sheet-Feats_SP26 {
+    position: absolute;
+    color: green;
+    top: 844px;
+    left: 76px;
+    right: 5px;
+    width: 240px;
+}
+
+.sheet-Feats_SP27 {
+    position: absolute;
+    color: green;
+    top: 861px;
+    left: 76px;
+    right: 5px;
+    width: 240px;
+}
+
+/* Languages */
+
+.sheet-Languages1 {
+    position: absolute;
+    color: green;
+    top: 878px;
+    left: 76px;
+    right: 5px;
+    width: 240px;
+}
+
+.sheet-Languages2 {
+    position: absolute;
+    color: green;
+    top: 895px;
+    left: 76px;
+    right: 5px;
+    width: 240px;
+}
+
+.sheet-Languages3 {
+    position: absolute;
+    color: green;
+    top: 912px;
+    left: 76px;
+    right: 5px;
+    width: 240px;
+}
+
+.sheet-Languages4 {
+    position: absolute;
+    color: green;
+    top: 929px;
     left: 76px;
     right: 5px;
     width: 240px;
