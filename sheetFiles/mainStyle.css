@@ -1,46 +1,46 @@
 
 .sheet-tabs {
-  position: relative;   
-  min-height: 200px; /* This part sucks */
-  clear: both;
-  margin: 25px 0;
+    position: relative;
+    min-height: 200px; /* This part sucks */
+    clear: both;
+    margin: 25px 0;
 }
 .sheet-tab {
-  float: left;
+    float: left;
 }
 .sheet-tab label {
-  background: #eee; 
-  padding: 10px; 
-  border: 1px solid #ccc; 
-  margin-left: -1px; 
-  position: relative;
-  width: 80px;
-  left: 1px; 
+    background: #eee;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-left: -1px;
+    position: relative;
+    width: 80px;
+    left: 1px;
 }
 .sheet-tab [type=radio] {
-  display: none;   
+    display: none;
 }
 .sheet-content {
-  position: absolute;
-  top: 28px;
-  left: 0;
-  background: white;
-  right: 0;
-  padding: 20px;
-  border: 1px solid #ccc; 
+    position: absolute;
+    top: 28px;
+    left: 0;
+    background: white;
+    right: 0;
+    padding: 20px;
+    border: 1px solid #ccc;
 }
 
 .sheet-ImageOverride {
 }
 
 [type=radio]:checked ~ label {
-  background: white;
-  border-bottom: 1px solid white;
-  z-index: 2;
+    background: white;
+    border-bottom: 1px solid white;
+    z-index: 2;
 }
 
 [type=radio]:checked ~ label ~ .sheet-content {
-  z-index: 1;
+    z-index: 1;
 }
 
 [type=text]{
@@ -471,7 +471,7 @@
 .sheet-Feats_SP13 {
     position: absolute;
     color: green;
-    top: 623px;
+    top: 622px;
     left: 76px;
     right: 5px;
     width: 240px;
@@ -480,7 +480,7 @@
 .sheet-Feats_SP14 {
     position: absolute;
     color: green;
-    top: 640px;
+    top: 639px;
     left: 76px;
     right: 5px;
     width: 240px;
@@ -489,7 +489,7 @@
 .sheet-Feats_SP15 {
     position: absolute;
     color: green;
-    top: 657px;
+    top: 656px;
     left: 76px;
     right: 5px;
     width: 240px;
@@ -498,7 +498,7 @@
 .sheet-Feats_SP16 {
     position: absolute;
     color: green;
-    top: 674px;
+    top: 673px;
     left: 76px;
     right: 5px;
     width: 240px;
@@ -507,7 +507,7 @@
 .sheet-Feats_SP17 {
     position: absolute;
     color: green;
-    top: 691px;
+    top: 689px;
     left: 76px;
     right: 5px;
     width: 240px;
@@ -516,7 +516,7 @@
 .sheet-Feats_SP18 {
     position: absolute;
     color: green;
-    top: 708px;
+    top: 706px;
     left: 76px;
     right: 5px;
     width: 240px;
@@ -525,7 +525,7 @@
 .sheet-Feats_SP19 {
     position: absolute;
     color: green;
-    top: 725px;
+    top: 723px;
     left: 76px;
     right: 5px;
     width: 240px;
@@ -534,7 +534,7 @@
 .sheet-Feats_SP20 {
     position: absolute;
     color: green;
-    top: 742px;
+    top: 740px;
     left: 76px;
     right: 5px;
     width: 240px;
@@ -543,7 +543,7 @@
 .sheet-Feats_SP21 {
     position: absolute;
     color: green;
-    top: 759px;
+    top: 757px;
     left: 76px;
     right: 5px;
     width: 240px;
@@ -552,7 +552,7 @@
 .sheet-Feats_SP22 {
     position: absolute;
     color: green;
-    top: 776px;
+    top: 774px;
     left: 76px;
     right: 5px;
     width: 240px;
@@ -561,7 +561,7 @@
 .sheet-Feats_SP23 {
     position: absolute;
     color: green;
-    top: 793px;
+    top: 791px;
     left: 76px;
     right: 5px;
     width: 240px;
@@ -570,7 +570,7 @@
 .sheet-Feats_SP24 {
     position: absolute;
     color: green;
-    top: 810px;
+    top: 808px;
     left: 76px;
     right: 5px;
     width: 240px;
@@ -579,7 +579,7 @@
 .sheet-Feats_SP25 {
     position: absolute;
     color: green;
-    top: 827px;
+    top: 825px;
     left: 76px;
     right: 5px;
     width: 240px;
@@ -588,7 +588,7 @@
 .sheet-Feats_SP26 {
     position: absolute;
     color: green;
-    top: 844px;
+    top: 842px;
     left: 76px;
     right: 5px;
     width: 240px;
@@ -597,7 +597,88 @@
 .sheet-Feats_SP27 {
     position: absolute;
     color: green;
-    top: 861px;
+    top: 859px;
+    left: 76px;
+    right: 5px;
+    width: 240px;
+}
+
+.sheet-Feats_SP28 {
+    position: absolute;
+    color: green;
+    top: 876px;
+    left: 76px;
+    right: 5px;
+    width: 240px;
+}
+
+.sheet-Feats_SP29 {
+    position: absolute;
+    color: green;
+    top: 893px;
+    left: 76px;
+    right: 5px;
+    width: 240px;
+}
+
+.sheet-Feats_SP30 {
+    position: absolute;
+    color: green;
+    top: 910px;
+    left: 76px;
+    right: 5px;
+    width: 240px;
+}
+
+.sheet-Feats_SP31 {
+    position: absolute;
+    color: green;
+    top: 927px;
+    left: 76px;
+    right: 5px;
+    width: 240px;
+}
+
+.sheet-Feats_SP32 {
+    position: absolute;
+    color: green;
+    top: 944px;
+    left: 76px;
+    right: 5px;
+    width: 240px;
+}
+
+.sheet-Feats_SP33 {
+    position: absolute;
+    color: green;
+    top: 960px;
+    left: 76px;
+    right: 5px;
+    width: 240px;
+}
+
+.sheet-Feats_SP34 {
+    position: absolute;
+    color: green;
+    top: 977px;
+    left: 76px;
+    right: 5px;
+    width: 240px;
+}
+
+.sheet-Feats_SP35 {
+    position: absolute;
+    color: green;
+    top: 994px;
+    left: 76px;
+    right: 5px;
+    width: 240px;
+}
+
+.sheet-Feats_SP36 {
+    position: absolute;
+    color: green;
+    top: 1011px;
     left: 76px;
     right: 5px;
     width: 240px;
@@ -608,7 +689,7 @@
 .sheet-Languages1 {
     position: absolute;
     color: green;
-    top: 878px;
+    top: 1026px;
     left: 76px;
     right: 5px;
     width: 240px;
@@ -617,7 +698,7 @@
 .sheet-Languages2 {
     position: absolute;
     color: green;
-    top: 895px;
+    top: 1043px;
     left: 76px;
     right: 5px;
     width: 240px;
@@ -626,7 +707,7 @@
 .sheet-Languages3 {
     position: absolute;
     color: green;
-    top: 912px;
+    top: 1060px;
     left: 76px;
     right: 5px;
     width: 240px;
@@ -635,7 +716,7 @@
 .sheet-Languages4 {
     position: absolute;
     color: green;
-    top: 929px;
+    top: 1076px;
     left: 76px;
     right: 5px;
     width: 240px;
