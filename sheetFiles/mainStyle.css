@@ -46,7 +46,11 @@
 [type=text]{
     background-color: transparent;
     border-color: transparent;
+    border: none;
+    box-shadow: none;
 }
+
+
 
 .sheet-PlayerName {
     position: absolute;
@@ -720,4 +724,98 @@
     left: 76px;
     right: 5px;
     width: 240px;
+}
+
+/*Character Data*/
+.sheet-CharacterName{
+    position: absolute;
+    color: green;
+    top: 79px;
+    left: 400px;
+    right: 5px;
+    width: 285px;
+}
+
+.sheet-CharacterRace{
+    position: absolute;
+    color: green;
+    top: 110px;
+    left: 400px;
+    right: 5px;
+    width: 200px;
+}
+
+.sheet-CharacterSize{
+    position: absolute;
+    color: green;
+    top: 110px;
+    left: 630px;
+    right: 5px;
+    width: 50px;
+}
+
+.sheet-SizeMod{
+    position: absolute;
+    color: green;
+    top: 105px;
+    left: 705px;
+    right: 5px;
+    width: 40px;
+}
+
+.sheet-Gender{
+    position: absolute;
+    color: green;
+    top: 79px;
+    left: 708px;
+    right: 5px;
+    width: 40px;
+}
+/*Class names/level/hd*/
+.sheet-Class1Name{
+    position: absolute;
+    height: 10px;
+    font-size: 13px;
+    padding: 0px;
+    color: green;
+    top: 150px;
+    left: 358px;
+    right: 5px;
+    width: 240px;
+}
+
+.sheet-Class1Skill{
+    position: absolute;
+    height: 10px;
+    font-size: 13px;
+    padding: 0px;
+    color: green;
+    top: 150px;
+    left: 595px;
+    right: 5px;
+    width: 40px;
+}
+
+.sheet-Class1HD{
+    position: absolute;
+    height: 10px;
+    font-size: 13px;
+    padding: 0px;
+    color: green;
+    top: 150px;
+    left: 653px;
+    right: 5px;
+    width: 27px;
+}
+
+.sheet-Class1Level{
+    position: absolute;
+    height: 10px;
+    font-size: 13px;
+    padding: 0px;
+    color: green;
+    top: 150px;
+    left: 692px;
+    right: 5px;
+    width: 32px;
 }
