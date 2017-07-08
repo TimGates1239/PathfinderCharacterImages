@@ -5,21 +5,27 @@
     clear: both;
     margin: 25px 0;
 }
+
 .sheet-tab {
     float: left;
 }
-.sheet-tab label {
-    background: #eee;
-    padding: 10px;
-    border: 1px solid #ccc;
-    margin-left: -1px;
-    position: relative;
-    width: 80px;
-    left: 1px;
-}
-.sheet-tab [type=radio] {
-    display: none;
-}
+
+    .sheet-tab label {
+        background: #eee;
+        padding: 10px;
+        border: 1px solid #ccc;
+        margin-left: -1px;
+        position: relative;
+        width: 80px;
+        left: 1px;
+    }
+
+    .sheet-tab [type=radio] {
+        display: none;
+        top: 0px;
+        left: 0px;
+    }
+
 .sheet-content {
     position: absolute;
     top: 28px;
@@ -31,6 +37,15 @@
 }
 
 .sheet-ImageOverride {
+    position: relative;
+}
+
+.sheet-MainChara {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 796px;
+    height: 1126px;
 }
 
 [type=radio]:checked ~ label {
@@ -39,11 +54,11 @@
     z-index: 2;
 }
 
-[type=radio]:checked ~ label ~ .sheet-content {
-    z-index: 1;
-}
+    [type=radio]:checked ~ label ~ .sheet-content {
+        z-index: 1;
+    }
 
-[type=text]{
+[type=text] {
     background-color: transparent;
     border-color: transparent;
     border: none;
@@ -55,32 +70,34 @@
 .sheet-PlayerName {
     position: absolute;
     color: green;
-    top: 110px;
-    left: 90px;
+    /*20*/
+    top: 90px;
+    /*20*/
+    left: 70px;
     right: 5px;
 }
 
 .sheet-CampgainName {
     position: absolute;
     color: green;
-    top: 140px;
-    left: 100px;
+    top: 120px;
+    left: 80px;
     right: 5px;
 }
 
 .sheet-CurrentExp {
     position: absolute;
     color: green;
-    top: 168px;
-    left: 75px;
+    top: 148px;
+    left: 55px;
     width: 140px;
 }
 
 .sheet-NextExp {
     position: absolute;
     color: green;
-    top: 167px;
-    left: 250px;
+    top: 147px;
+    left: 230px;
     width: 70px;
     height: 10px;
     font-size: 13px;
@@ -90,8 +107,8 @@
 .sheet-StrScore {
     position: absolute;
     color: green;
-    top: 240px;
-    left: 100px;
+    top: 220px;
+    left: 80px;
     right: 5px;
     width: 37px;
 }
@@ -99,8 +116,8 @@
 .sheet-StrItemBonus {
     position: absolute;
     color: green;
-    top: 240px;
-    left: 145px;
+    top: 220px;
+    left: 125px;
     right: 5px;
     width: 37px;
 }
@@ -108,8 +125,8 @@
 .sheet-StrMod {
     position: absolute;
     color: green;
-    top: 240px;
-    left: 189px;
+    top: 220px;
+    left: 169px;
     right: 5px;
     width: 37px;
 }
@@ -117,8 +134,8 @@
 .sheet-StrTempScore {
     position: absolute;
     color: green;
-    top: 240px;
-    left: 232px;
+    top: 220px;
+    left: 212px;
     right: 5px;
     width: 37px;
 }
@@ -126,8 +143,8 @@
 .sheet-StrTempMod {
     position: absolute;
     color: green;
-    top: 240px;
-    left: 276px;
+    top: 220px;
+    left: 256px;
     right: 5px;
     width: 37px;
 }
@@ -136,8 +153,8 @@
 .sheet-DexScore {
     position: absolute;
     color: green;
-    top: 266px;
-    left: 100px;
+    top: 246px;
+    left: 80px;
     right: 5px;
     width: 37px;
 }
@@ -145,8 +162,8 @@
 .sheet-DexItemBonus {
     position: absolute;
     color: green;
-    top: 266px;
-    left: 145px;
+    top: 246px;
+    left: 125px;
     right: 5px;
     width: 37px;
 }
@@ -154,8 +171,8 @@
 .sheet-DexMod {
     position: absolute;
     color: green;
-    top: 266px;
-    left: 189px;
+    top: 246px;
+    left: 169px;
     right: 5px;
     width: 37px;
 }
@@ -163,8 +180,8 @@
 .sheet-DexTempScore {
     position: absolute;
     color: green;
-    top: 266px;
-    left: 232px;
+    top: 246px;
+    left: 212px;
     right: 5px;
     width: 37px;
 }
@@ -172,8 +189,8 @@
 .sheet-DexTempMod {
     position: absolute;
     color: green;
-    top: 266px;
-    left: 276px;
+    top: 246px;
+    left: 256px;
     right: 5px;
     width: 37px;
 }
@@ -182,8 +199,8 @@
 .sheet-ConScore {
     position: absolute;
     color: green;
-    top: 292px;
-    left: 100px;
+    top: 272px;
+    left: 80px;
     right: 5px;
     width: 37px;
 }
@@ -191,8 +208,8 @@
 .sheet-ConItemBonus {
     position: absolute;
     color: green;
-    top: 292px;
-    left: 145px;
+    top: 272px;
+    left: 125px;
     right: 5px;
     width: 37px;
 }
@@ -200,8 +217,8 @@
 .sheet-ConMod {
     position: absolute;
     color: green;
-    top: 292px;
-    left: 189px;
+    top: 272px;
+    left: 169px;
     right: 5px;
     width: 37px;
 }
@@ -209,8 +226,8 @@
 .sheet-ConTempScore {
     position: absolute;
     color: green;
-    top: 292px;
-    left: 232px;
+    top: 272px;
+    left: 212px;
     right: 5px;
     width: 37px;
 }
@@ -218,8 +235,8 @@
 .sheet-ConTempMod {
     position: absolute;
     color: green;
-    top: 292px;
-    left: 276px;
+    top: 272px;
+    left: 256px;
     right: 5px;
     width: 37px;
 }
@@ -228,8 +245,8 @@
 .sheet-IntScore {
     position: absolute;
     color: green;
-    top: 316px;
-    left: 100px;
+    top: 296px;
+    left: 80px;
     right: 5px;
     width: 37px;
 }
@@ -237,8 +254,8 @@
 .sheet-IntItemBonus {
     position: absolute;
     color: green;
-    top: 316px;
-    left: 145px;
+    top: 296px;
+    left: 125px;
     right: 5px;
     width: 37px;
 }
@@ -246,8 +263,8 @@
 .sheet-IntMod {
     position: absolute;
     color: green;
-    top: 316px;
-    left: 189px;
+    top: 296px;
+    left: 169px;
     right: 5px;
     width: 37px;
 }
@@ -255,8 +272,8 @@
 .sheet-IntTempScore {
     position: absolute;
     color: green;
-    top: 316px;
-    left: 232px;
+    top: 296px;
+    left: 212px;
     right: 5px;
     width: 37px;
 }
@@ -264,8 +281,8 @@
 .sheet-IntTempMod {
     position: absolute;
     color: green;
-    top: 316px;
-    left: 276px;
+    top: 296px;
+    left: 256px;
     right: 5px;
     width: 37px;
 }
@@ -274,8 +291,8 @@
 .sheet-WisScore {
     position: absolute;
     color: green;
-    top: 340px;
-    left: 100px;
+    top: 320px;
+    left: 80px;
     right: 5px;
     width: 37px;
 }
@@ -283,8 +300,8 @@
 .sheet-WisItemBonus {
     position: absolute;
     color: green;
-    top: 340px;
-    left: 145px;
+    top: 320px;
+    left: 125px;
     right: 5px;
     width: 37px;
 }
@@ -292,8 +309,8 @@
 .sheet-WisMod {
     position: absolute;
     color: green;
-    top: 340px;
-    left: 189px;
+    top: 320px;
+    left: 169px;
     right: 5px;
     width: 37px;
 }
@@ -301,8 +318,8 @@
 .sheet-WisTempScore {
     position: absolute;
     color: green;
-    top: 340px;
-    left: 232px;
+    top: 320px;
+    left: 212px;
     right: 5px;
     width: 37px;
 }
@@ -310,8 +327,8 @@
 .sheet-WisTempMod {
     position: absolute;
     color: green;
-    top: 340px;
-    left: 276px;
+    top: 320px;
+    left: 256px;
     right: 5px;
     width: 37px;
 }
@@ -320,8 +337,8 @@
 .sheet-ChaScore {
     position: absolute;
     color: green;
-    top: 364px;
-    left: 100px;
+    top: 344px;
+    left: 80px;
     right: 5px;
     width: 37px;
 }
@@ -329,8 +346,8 @@
 .sheet-ChaItemBonus {
     position: absolute;
     color: green;
-    top: 364px;
-    left: 145px;
+    top: 344px;
+    left: 125px;
     right: 5px;
     width: 37px;
 }
@@ -338,8 +355,8 @@
 .sheet-ChaMod {
     position: absolute;
     color: green;
-    top: 364px;
-    left: 189px;
+    top: 344px;
+    left: 169px;
     right: 5px;
     width: 37px;
 }
@@ -347,8 +364,8 @@
 .sheet-ChaTempScore {
     position: absolute;
     color: green;
-    top: 364px;
-    left: 232px;
+    top: 344px;
+    left: 212px;
     right: 5px;
     width: 37px;
 }
@@ -356,8 +373,8 @@
 .sheet-ChaTempMod {
     position: absolute;
     color: green;
-    top: 364px;
-    left: 276px;
+    top: 344px;
+    left: 256px;
     right: 5px;
     width: 37px;
 }
@@ -367,8 +384,8 @@
 .sheet-Feats_SP1 {
     position: absolute;
     color: green;
-    top: 419px;
-    left: 76px;
+    top: 402px;
+    left: 56px;
     right: 5px;
     width: 240px;
 }
@@ -376,8 +393,8 @@
 .sheet-Feats_SP2 {
     position: absolute;
     color: green;
-    top: 436px;
-    left: 76px;
+    top: 419px;
+    left: 56px;
     right: 5px;
     width: 240px;
 }
@@ -385,8 +402,8 @@
 .sheet-Feats_SP3 {
     position: absolute;
     color: green;
-    top: 453px;
-    left: 76px;
+    top: 436px;
+    left: 56px;
     right: 5px;
     width: 240px;
 }
@@ -394,8 +411,8 @@
 .sheet-Feats_SP4 {
     position: absolute;
     color: green;
-    top: 470px;
-    left: 76px;
+    top: 453px;
+    left: 56px;
     right: 5px;
     width: 240px;
 }
@@ -403,8 +420,8 @@
 .sheet-Feats_SP5 {
     position: absolute;
     color: green;
-    top: 487px;
-    left: 76px;
+    top: 470px;
+    left: 56px;
     right: 5px;
     width: 240px;
 }
@@ -412,8 +429,8 @@
 .sheet-Feats_SP6 {
     position: absolute;
     color: green;
-    top: 504px;
-    left: 76px;
+    top: 487px;
+    left: 56px;
     right: 5px;
     width: 240px;
 }
@@ -421,8 +438,8 @@
 .sheet-Feats_SP7 {
     position: absolute;
     color: green;
-    top: 521px;
-    left: 76px;
+    top: 504px;
+    left: 56px;
     right: 5px;
     width: 240px;
 }
@@ -430,8 +447,8 @@
 .sheet-Feats_SP8 {
     position: absolute;
     color: green;
-    top: 538px;
-    left: 76px;
+    top: 521px;
+    left: 56px;
     right: 5px;
     width: 240px;
 }
@@ -439,8 +456,8 @@
 .sheet-Feats_SP9 {
     position: absolute;
     color: green;
-    top: 555px;
-    left: 76px;
+    top: 538px;
+    left: 56px;
     right: 5px;
     width: 240px;
 }
@@ -448,8 +465,8 @@
 .sheet-Feats_SP10 {
     position: absolute;
     color: green;
-    top: 572px;
-    left: 76px;
+    top: 555px;
+    left: 56px;
     right: 5px;
     width: 240px;
 }
@@ -457,8 +474,8 @@
 .sheet-Feats_SP11 {
     position: absolute;
     color: green;
-    top: 589px;
-    left: 76px;
+    top: 572px;
+    left: 56px;
     right: 5px;
     width: 240px;
 }
@@ -466,8 +483,8 @@
 .sheet-Feats_SP12 {
     position: absolute;
     color: green;
-    top: 606px;
-    left: 76px;
+    top: 589px;
+    left: 56px;
     right: 5px;
     width: 240px;
 }
@@ -475,8 +492,8 @@
 .sheet-Feats_SP13 {
     position: absolute;
     color: green;
-    top: 622px;
-    left: 76px;
+    top: 606px;
+    left: 56px;
     right: 5px;
     width: 240px;
 }
@@ -484,8 +501,8 @@
 .sheet-Feats_SP14 {
     position: absolute;
     color: green;
-    top: 639px;
-    left: 76px;
+    top: 623px;
+    left: 56px;
     right: 5px;
     width: 240px;
 }
@@ -493,8 +510,8 @@
 .sheet-Feats_SP15 {
     position: absolute;
     color: green;
-    top: 656px;
-    left: 76px;
+    top: 640px;
+    left: 56px;
     right: 5px;
     width: 240px;
 }
@@ -502,8 +519,8 @@
 .sheet-Feats_SP16 {
     position: absolute;
     color: green;
-    top: 673px;
-    left: 76px;
+    top: 657px;
+    left: 56px;
     right: 5px;
     width: 240px;
 }
@@ -511,8 +528,8 @@
 .sheet-Feats_SP17 {
     position: absolute;
     color: green;
-    top: 689px;
-    left: 76px;
+    top: 674px;
+    left: 56px;
     right: 5px;
     width: 240px;
 }
@@ -520,8 +537,8 @@
 .sheet-Feats_SP18 {
     position: absolute;
     color: green;
-    top: 706px;
-    left: 76px;
+    top: 691px;
+    left: 56px;
     right: 5px;
     width: 240px;
 }
@@ -529,8 +546,8 @@
 .sheet-Feats_SP19 {
     position: absolute;
     color: green;
-    top: 723px;
-    left: 76px;
+    top: 708px;
+    left: 56px;
     right: 5px;
     width: 240px;
 }
@@ -538,8 +555,8 @@
 .sheet-Feats_SP20 {
     position: absolute;
     color: green;
-    top: 740px;
-    left: 76px;
+    top: 725px;
+    left: 56px;
     right: 5px;
     width: 240px;
 }
@@ -547,8 +564,8 @@
 .sheet-Feats_SP21 {
     position: absolute;
     color: green;
-    top: 757px;
-    left: 76px;
+    top: 742px;
+    left: 56px;
     right: 5px;
     width: 240px;
 }
@@ -556,8 +573,8 @@
 .sheet-Feats_SP22 {
     position: absolute;
     color: green;
-    top: 774px;
-    left: 76px;
+    top: 759px;
+    left: 56px;
     right: 5px;
     width: 240px;
 }
@@ -565,8 +582,8 @@
 .sheet-Feats_SP23 {
     position: absolute;
     color: green;
-    top: 791px;
-    left: 76px;
+    top: 776px;
+    left: 56px;
     right: 5px;
     width: 240px;
 }
@@ -574,8 +591,8 @@
 .sheet-Feats_SP24 {
     position: absolute;
     color: green;
-    top: 808px;
-    left: 76px;
+    top: 793px;
+    left: 56px;
     right: 5px;
     width: 240px;
 }
@@ -583,8 +600,8 @@
 .sheet-Feats_SP25 {
     position: absolute;
     color: green;
-    top: 825px;
-    left: 76px;
+    top: 810px;
+    left: 56px;
     right: 5px;
     width: 240px;
 }
@@ -592,8 +609,8 @@
 .sheet-Feats_SP26 {
     position: absolute;
     color: green;
-    top: 842px;
-    left: 76px;
+    top: 827px;
+    left: 56px;
     right: 5px;
     width: 240px;
 }
@@ -601,8 +618,8 @@
 .sheet-Feats_SP27 {
     position: absolute;
     color: green;
-    top: 859px;
-    left: 76px;
+    top: 844px;
+    left: 56px;
     right: 5px;
     width: 240px;
 }
@@ -610,8 +627,8 @@
 .sheet-Feats_SP28 {
     position: absolute;
     color: green;
-    top: 876px;
-    left: 76px;
+    top: 861px;
+    left: 56px;
     right: 5px;
     width: 240px;
 }
@@ -619,8 +636,8 @@
 .sheet-Feats_SP29 {
     position: absolute;
     color: green;
-    top: 893px;
-    left: 76px;
+    top: 878px;
+    left: 56px;
     right: 5px;
     width: 240px;
 }
@@ -628,8 +645,8 @@
 .sheet-Feats_SP30 {
     position: absolute;
     color: green;
-    top: 910px;
-    left: 76px;
+    top: 895px;
+    left: 56px;
     right: 5px;
     width: 240px;
 }
@@ -637,8 +654,8 @@
 .sheet-Feats_SP31 {
     position: absolute;
     color: green;
-    top: 927px;
-    left: 76px;
+    top: 912px;
+    left: 56px;
     right: 5px;
     width: 240px;
 }
@@ -646,8 +663,8 @@
 .sheet-Feats_SP32 {
     position: absolute;
     color: green;
-    top: 944px;
-    left: 76px;
+    top: 929px;
+    left: 56px;
     right: 5px;
     width: 240px;
 }
@@ -655,8 +672,8 @@
 .sheet-Feats_SP33 {
     position: absolute;
     color: green;
-    top: 960px;
-    left: 76px;
+    top: 946px;
+    left: 56px;
     right: 5px;
     width: 240px;
 }
@@ -664,8 +681,8 @@
 .sheet-Feats_SP34 {
     position: absolute;
     color: green;
-    top: 977px;
-    left: 76px;
+    top: 963px;
+    left: 56px;
     right: 5px;
     width: 240px;
 }
@@ -673,8 +690,8 @@
 .sheet-Feats_SP35 {
     position: absolute;
     color: green;
-    top: 994px;
-    left: 76px;
+    top: 980px;
+    left: 56px;
     right: 5px;
     width: 240px;
 }
@@ -682,8 +699,8 @@
 .sheet-Feats_SP36 {
     position: absolute;
     color: green;
-    top: 1011px;
-    left: 76px;
+    top: 997px;
+    left: 56px;
     right: 5px;
     width: 240px;
 }
@@ -693,8 +710,8 @@
 .sheet-Languages1 {
     position: absolute;
     color: green;
-    top: 1026px;
-    left: 76px;
+    top: 1014px;
+    left: 56px;
     right: 5px;
     width: 240px;
 }
@@ -702,8 +719,8 @@
 .sheet-Languages2 {
     position: absolute;
     color: green;
-    top: 1043px;
-    left: 76px;
+    top: 1031px;
+    left: 56px;
     right: 5px;
     width: 240px;
 }
@@ -711,8 +728,8 @@
 .sheet-Languages3 {
     position: absolute;
     color: green;
-    top: 1060px;
-    left: 76px;
+    top: 1048px;
+    left: 56px;
     right: 5px;
     width: 240px;
 }
@@ -720,102 +737,102 @@
 .sheet-Languages4 {
     position: absolute;
     color: green;
-    top: 1076px;
-    left: 76px;
+    top: 1065px;
+    left: 56px;
     right: 5px;
     width: 240px;
 }
 
 /*Character Data*/
-.sheet-CharacterName{
+.sheet-CharacterName {
     position: absolute;
     color: green;
-    top: 79px;
-    left: 400px;
+    top: 59px;
+    left: 380px;
     right: 5px;
     width: 285px;
 }
 
-.sheet-CharacterRace{
+.sheet-CharacterRace {
     position: absolute;
     color: green;
-    top: 110px;
-    left: 400px;
+    top: 90px;
+    left: 380px;
     right: 5px;
     width: 200px;
 }
 
-.sheet-CharacterSize{
+.sheet-CharacterSize {
     position: absolute;
     color: green;
-    top: 110px;
-    left: 630px;
+    top: 90px;
+    left: 610px;
     right: 5px;
     width: 50px;
 }
 
-.sheet-SizeMod{
+.sheet-SizeMod {
     position: absolute;
     color: green;
-    top: 105px;
-    left: 705px;
+    top: 85px;
+    left: 685px;
     right: 5px;
     width: 40px;
 }
 
-.sheet-Gender{
+.sheet-Gender {
     position: absolute;
     color: green;
-    top: 79px;
-    left: 708px;
+    top: 59px;
+    left: 688px;
     right: 5px;
     width: 40px;
 }
 /*Class names/level/hd*/
-.sheet-Class1Name{
+.sheet-Class1Name {
     position: absolute;
     height: 10px;
     font-size: 13px;
     padding: 0px;
     color: green;
-    top: 150px;
-    left: 358px;
+    top: 130px;
+    left: 338px;
     right: 5px;
     width: 240px;
 }
 
-.sheet-Class1Skill{
+.sheet-Class1Skill {
     position: absolute;
     height: 10px;
     font-size: 13px;
     padding: 0px;
     color: green;
-    top: 150px;
-    left: 595px;
+    top: 130px;
+    left: 575px;
     right: 5px;
     width: 40px;
 }
 
-.sheet-Class1HD{
+.sheet-Class1HD {
     position: absolute;
     height: 10px;
     font-size: 13px;
     padding: 0px;
     color: green;
-    top: 150px;
-    left: 653px;
+    top: 130px;
+    left: 633px;
     right: 5px;
     width: 27px;
 }
 
-.sheet-Class1Level{
+.sheet-Class1Level {
     position: absolute;
     height: 10px;
     font-size: 13px;
     padding: 0px;
     color: green;
-    top: 150px;
-    left: 692px;
+    top: 130px;
+    left: 672px;
     right: 5px;
     width: 32px;
 }
@@ -826,8 +843,8 @@
     font-size: 13px;
     padding: 0px;
     color: green;
-    top: 171px;
-    left: 358px;
+    top: 151px;
+    left: 338px;
     right: 5px;
     width: 240px;
 }
@@ -838,8 +855,8 @@
     font-size: 13px;
     padding: 0px;
     color: green;
-    top: 171px;
-    left: 595px;
+    top: 151px;
+    left: 575px;
     right: 5px;
     width: 40px;
 }
@@ -850,8 +867,8 @@
     font-size: 13px;
     padding: 0px;
     color: green;
-    top: 171px;
-    left: 653px;
+    top: 151px;
+    left: 633px;
     right: 5px;
     width: 27px;
 }
@@ -862,8 +879,8 @@
     font-size: 13px;
     padding: 0px;
     color: green;
-    top: 171px;
-    left: 692px;
+    top: 151px;
+    left: 672px;
     right: 5px;
     width: 32px;
 }
@@ -874,8 +891,8 @@
     font-size: 13px;
     padding: 0px;
     color: green;
-    top: 192px;
-    left: 358px;
+    top: 172px;
+    left: 338px;
     right: 5px;
     width: 240px;
 }
@@ -886,8 +903,8 @@
     font-size: 13px;
     padding: 0px;
     color: green;
-    top: 192px;
-    left: 595px;
+    top: 172px;
+    left: 575px;
     right: 5px;
     width: 40px;
 }
@@ -898,8 +915,8 @@
     font-size: 13px;
     padding: 0px;
     color: green;
-    top: 192px;
-    left: 653px;
+    top: 172px;
+    left: 633px;
     right: 5px;
     width: 27px;
 }
@@ -910,8 +927,8 @@
     font-size: 13px;
     padding: 0px;
     color: green;
-    top: 192px;
-    left: 692px;
+    top: 172px;
+    left: 672px;
     right: 5px;
     width: 32px;
 }
@@ -922,8 +939,8 @@
     font-size: 13px;
     padding: 0px;
     color: green;
-    top: 213px;
-    left: 358px;
+    top: 193px;
+    left: 338px;
     right: 5px;
     width: 240px;
 }
@@ -934,8 +951,8 @@
     font-size: 13px;
     padding: 0px;
     color: green;
-    top: 213px;
-    left: 595px;
+    top: 193px;
+    left: 575px;
     right: 5px;
     width: 40px;
 }
@@ -946,8 +963,8 @@
     font-size: 13px;
     padding: 0px;
     color: green;
-    top: 213px;
-    left: 653px;
+    top: 193px;
+    left: 633px;
     right: 5px;
     width: 27px;
 }
@@ -958,8 +975,8 @@
     font-size: 13px;
     padding: 0px;
     color: green;
-    top: 213px;
-    left: 692px;
+    top: 193px;
+    left: 672px;
     right: 5px;
     width: 32px;
 }
@@ -970,8 +987,8 @@
     font-size: 13px;
     padding: 0px;
     color: green;
-    top: 234px;
-    left: 358px;
+    top: 214px;
+    left: 338px;
     right: 5px;
     width: 240px;
 }
@@ -982,8 +999,8 @@
     font-size: 13px;
     padding: 0px;
     color: green;
-    top: 234px;
-    left: 595px;
+    top: 214px;
+    left: 575px;
     right: 5px;
     width: 40px;
 }
@@ -994,8 +1011,8 @@
     font-size: 13px;
     padding: 0px;
     color: green;
-    top: 234px;
-    left: 653px;
+    top: 214px;
+    left: 633px;
     right: 5px;
     width: 27px;
 }
@@ -1006,8 +1023,8 @@
     font-size: 13px;
     padding: 0px;
     color: green;
-    top: 234px;
-    left: 692px;
+    top: 214px;
+    left: 672px;
     right: 5px;
     width: 32px;
 }
